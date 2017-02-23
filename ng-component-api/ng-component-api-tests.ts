@@ -5,4 +5,4 @@ const tab = {
     }
 }
 
-angular.module('app', []).components({ tag })
+angular.module('app', []).components({ tab })

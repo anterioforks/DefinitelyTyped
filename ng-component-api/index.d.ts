@@ -12,12 +12,12 @@ declare module 'angular' {
          * Use this method to register components.
          *
          * @param components An Object of component type.
-         * 
-         * @example 
-         * 
+         *
+         * @example
+         *
          * import tab from './components/tab.ng'
          * angular.module('app').components({ tab })
          */
-        components(components: Object ): IModule;
+        components(components: {} ): IModule;
     }
 }
